@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Task_2
 {
-    class MyList<T>
+    public class MyList<T>
     {
         private const int defaultSize = 5; // размер при успользовании конструктора по умолчанию
         private const double growthIndex = 2; // во сколько раз увеличится массив при переполнении 
